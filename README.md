@@ -39,3 +39,17 @@ This file contains the 5-min speed values after linear interpolation. Because th
 https://drive.google.com/file/d/1SvlZawwvvkX-ofe8UNho4ZdWzKR0_0hG/view?usp=sharing
 - block0_items: Link identification(count: 4736).
 - block0_values: 5-min speeds(count: 8640). We interpolate zero or nan values. (Units: km/h)
+
+
+# Citation
+
+If you need more detailed information about data implementation, please read and cite the following paper:
+
+```
+@article{lee2019ddp,
+  title={DDP-GCN: Multi-graph convolutional network for spatiotemporal traffic forecasting},
+  author={Lee, Kyungeun and Rhee, Wonjong},
+  journal={arXiv preprint arXiv:1905.12256},
+  year={2019}
+}
+```
