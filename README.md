@@ -35,6 +35,7 @@ This file contains the additional information of each link as listed below.
 
 (3) spd_5min.h5
 
-This file contains the 5-min speed values after linear interpolation.
+This file contains the 5-min speed values after linear interpolation. Because this data size is too large, we uploaded it through the Google Drive.
+https://drive.google.com/file/d/1SvlZawwvvkX-ofe8UNho4ZdWzKR0_0hG/view?usp=sharing
 - block0_items: Link identification(count: 4736).
 - block0_values: 5-min speeds(count: 8640). We interpolate zero or nan values. (Units: km/h)
